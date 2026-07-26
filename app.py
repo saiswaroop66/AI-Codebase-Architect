@@ -162,8 +162,8 @@ footer{
     visibility:hidden;
 }
 
-header{
-    visibility:hidden;
+header[data-testid="stHeader"]{
+    height: 2.5rem;
 }
 
 </style>
